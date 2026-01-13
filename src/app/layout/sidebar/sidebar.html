@@ -1,0 +1,44 @@
+<aside class="sidebar d-none d-lg-flex flex-column">
+  <div class="sidebar-brand">
+    <div class="brand-mark">
+      <span class="brand-ring"></span>
+      <span class="brand-core"></span>
+      <span class="brand-swoosh"></span>
+      <span class="brand-leaf"></span>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav flex-grow-1">
+    <a class="sidebar-link" routerLink="/overview" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <i class="ri-dashboard-line"></i>
+      <span>Overview</span>
+    </a>
+    <a class="sidebar-link" routerLink="/campaigns" routerLinkActive="active">
+      <i class="ri-flag-line"></i>
+      <span>Campaigns</span>
+    </a>
+    <a class="sidebar-link" routerLink="/players" routerLinkActive="active">
+      <i class="ri-team-line"></i>
+      <span>Players</span>
+    </a>
+    <a class="sidebar-link" routerLink="/schedule" routerLinkActive="active">
+      <i class="ri-calendar-line"></i>
+      <span>Schedule</span>
+    </a>
+    <a class="sidebar-link" routerLink="/messages" routerLinkActive="active">
+      <i class="ri-message-3-line"></i>
+      <span>Messages</span>
+    </a>
+    <a class="sidebar-link" routerLink="/analytics" routerLinkActive="active">
+      <i class="ri-bar-chart-line"></i>
+      <span>Analytics</span>
+    </a>
+  </nav>
+
+  <div class="sidebar-footer">
+    <a class="sidebar-link" href="#">
+      <i class="ri-logout-box-line"></i>
+      <span>Logout</span>
+    </a>
+  </div>
+</aside>
